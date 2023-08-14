@@ -7,7 +7,7 @@ const ProductList = () => {
 
   const fetchProducts = async () => {
     try {
-      const response = await fetch('http://127.0.0.1:5000/api/products', {
+      const response = await fetch('http://103.29.2.117/api/products', {
         cache: 'no-store'
       });
 
